@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Laba17_18_Kuzvah_shar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="580">
+        Title="MainWindow" Height="450" Width="580"
+        Background="#CFCFCF">
     <Grid>
         <Label Content="Zoo List"
                HorizontalAlignment="Left"
