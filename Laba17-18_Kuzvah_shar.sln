@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Laba17-18_Kuzvah_shar", "Laba17-18_Kuzvah_shar\Laba17-18_Kuzvah_shar.csproj", "{DD5215B1-0433-4B87-BDEF-4B686734742D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD5215B1-0433-4B87-BDEF-4B686734742D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD5215B1-0433-4B87-BDEF-4B686734742D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD5215B1-0433-4B87-BDEF-4B686734742D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD5215B1-0433-4B87-BDEF-4B686734742D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {11331212-CD3F-44B6-8A81-38BE08FFD4DF}
+	EndGlobalSection
+EndGlobal
