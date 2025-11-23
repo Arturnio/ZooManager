@@ -22,6 +22,13 @@
                HorizontalAlignment="Left"
                VerticalAlignment="Top"
                Margin="202,10,0,0"/>
+
+
+        <Label Content="Animals list"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Margin="396,10,0,0"/>
+
         <ListBox x:Name="listAssociatedAnimals"
                  HorizontalAlignment="Left"
                  VerticalAlignment="Top"
@@ -31,11 +38,12 @@
         <ListBox x:Name="listAllAnimals"
                  HorizontalAlignment="Left"
                  VerticalAlignment="Top"
-                 Width="155" Height="300"
+                 Width="155" Height="175"
                  Margin="396,41,0,0"/>
 
         <Button Content="Delete Zoo"
                 Click="DeleteZoo_Click"
+                                Background="#EF5350"   
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
@@ -43,13 +51,25 @@
         
         <Button Content="Remove Animal"
                 Click="RemoveAnimal_Click"
+                Background="#EF5350"   
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
                 Margin="202,235,0,0"/>
 
+
+        <Button Content="Add Animal to Zoo"
+                Click="AddAnimalToZoo_Click"
+                Background="#66BB6A"   
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Width="158" Height="34"
+                Margin="396,318,0,0"/>
+
+
         <Button Content="Add Zoo"
                 Click="AddZoo_Click"
+                Background="#66BB6A"   
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
@@ -57,6 +77,7 @@
 
         <Button Content="Add Animal Zoo"
                 Click="AddAnimal_Click"
+                Background="#66BB6A"  
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
@@ -64,6 +85,7 @@
 
         <Button Content="Update Zoo"
                 Click="UpdateZoo_Click"
+                Background="#4A90E2"  
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
@@ -71,6 +93,7 @@
 
         <Button Content="Update Animal"
                 Click="UpdateAnimal_Click"
+                Background="#4A90E2"  
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
@@ -78,17 +101,11 @@
 
         <Button Content="Delete Animal"
                 Click="DeleteAnimal_Click"
+                Background="#EF5350"   
                 HorizontalAlignment="Left"
                 VerticalAlignment="Top"
                 Width="158" Height="34"
-                Margin="396,357,0,0"/>
-
-        <Button Content="Add Animal to Zoo"
-                Click="AddAnimalToZoo_Click"
-                HorizontalAlignment="Left"
-                VerticalAlignment="Top"
-                Width="158" Height="34"
-                Margin="396,6,0,0"/>
+                Margin="396,235,0,0"/>
 
         <TextBox x:Name="myTextBox"
                  TextWrapping="Wrap"
